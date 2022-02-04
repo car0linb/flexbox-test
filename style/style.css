@@ -1,0 +1,141 @@
+body{
+    background-color: #E5E5E5;
+    margin: 0;
+    color: white;
+    font-size: 12px;
+    font-family:'Roboto', sans-serif;
+}
+
+.flex__example{
+    height: 100vh;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #370617;
+    width: 1152px;
+    height: 700px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.rectangle {
+    background-color: #F48C06;
+    width: 468px;
+    height: 160px;
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+}
+
+.item{
+    background-color: #9D0208;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: grey;
+}
+
+.first{
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.second{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.third{
+    justify-content: space-evenly;
+}
+
+.self{
+    align-self: center;
+}
+
+.fourth{
+    justify-content: center;
+}
+
+.fith{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.three{
+    align-self: end;
+}
+
+.five{
+    flex-grow: 2;
+}
+
+.sixth{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.secondexample{
+    background-color: #FAA307;
+    flex-direction: row;
+}
+
+.block{
+    width: 273px;
+    height: 220px;
+    background-color: #03071E;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: #748CAB;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.red{
+    background-color: #6A040F;
+}
+
+.a{
+    align-content: flex-start;
+}
+
+.b{
+    align-content: flex-start;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+}
+
+.c{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.e{
+    justify-content: center;
+    align-content: center;
+}
